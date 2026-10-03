@@ -8,7 +8,7 @@ ON v.vendor_id = p.vendor_id
 LIMIT 1000;
 
 #finding how many sustainable vendors vs not-sustainable
-SELECT COUNT(vendor_sustainable)
+SELECT vendor_sustainable, COUNT(vendor_sustainable)
 FROM vendors
 GROUP BY vendor_sustainable
 LIMIT 2;
