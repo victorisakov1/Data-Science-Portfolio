@@ -1,7 +1,10 @@
-# Data Science Portfolio
+# University Data Science Projects
 
-Data science, machine learning and SQL projects by Victor Isakov, mostly from the Master of Science
-in Business Analytics at Hult International Business School. Each folder is a self-contained
+> **University coursework.** Every project here was built as coursework during my studies at Hult
+> International Business School (mostly the Master of Science in Business Analytics). They show
+> what I learned at the time, not production code.
+
+Data science, machine learning and SQL projects by Victor Isakov. Each folder is a self-contained
 project with its code and data.
 
 ## About me
