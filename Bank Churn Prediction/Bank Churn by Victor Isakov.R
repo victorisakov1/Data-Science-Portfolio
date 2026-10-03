@@ -1,4 +1,4 @@
-setwd("C:\\Users\\Mi\\Desktop\\My Files\\MBAN\\Semester II\\Visualizing & Analyzing Data with R\\Class Codes")
+# Run this script from its own folder so the CSV files below are found.
 getwd()
 p_data <- read.csv('BankChurnDataset.csv')
 head(p_data)

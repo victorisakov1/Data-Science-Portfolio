@@ -1,60 +1,62 @@
 # Data Science Portfolio
 
-## **Skills | Expertise | Certifications**
+Data science, machine learning and SQL projects by Victor Isakov, mostly from the Master of Science
+in Business Analytics at Hult International Business School. Each folder is a self-contained
+project with its code and data.
 
-- **Technologies**: Python, SQL, R, AWS, MQL5, Excel, Dataiku, MongoDB, Tableau, Adobe CC, Slack, Miro, Kanban, SEO & SEM, Google Analytics, Midjourney, ChatGPT, DecohereAI.
+## About me
 
-- **Certifications**: Supervised Learning with scikit-learn, Unsupervised Learning in Python, Feature Engineering for ML in Python, Deep Learning for Images with PyTorch, Deep Learning for Text with PyTorch, Image Processing in Python, Python Data Science Toolbox.
+I'm a data and operations analyst who builds AI agents, automations and analytics that help teams
+make better decisions. I work as a data and operations associate in consulting. Before that I
+co-founded Casey AI, a career intelligence startup, built and backtested trading algorithms as a
+quantitative strategist at AlgoForce, and led data analytics and AI adoption at the EdTech company
+3 Amigos. I hold an M.S. in Finance and an M.S. in Business Analytics from Hult International
+Business School. I work mainly in Python, SQL and R, and build with Claude Code, Codex and
+Antigravity.
 
-- **Interests**: Business Analytics, Algorithmic Trading, Wealth Management, Quantitative Strategy, Data Science, AI and ML.
+I'm passionate about the world of investments, operations, analytics, and putting AI to work in
+real businesses. Outside of work, I make music in FL Studio (I majored in piano), and I love cars
+and a good adventure. I also represented Canada in a competitive team sport at the World
+Championships.
 
-- **Languages**: English (Fluent), Russian (Native), Ukrainian (Beginner), French (School Study).
+[LinkedIn](https://www.linkedin.com/in/victor-isakov) · [GitHub](https://github.com/victorisakov1)
 
-## **Work Experience**
+## Projects
 
-### Quantitative Data Science Strategist
-**AlgoForce** · Full-time · 
-June 2024 - Present · 
-Dubai, UAE (Remote)
+| Folder | What it does | Tools |
+|---|---|---|
+| `Airbnb Data Mining & Analysis/` | Text mining and NLP on Airbnb listings and reviews, with a Shiny dashboard | R, MongoDB |
+| `Bank Churn Prediction/` | Predicts which bank customers are likely to leave | R |
+| `Bike Rentals Predictions/` | Predicts bike rentals in Chicago with regression, decision tree and KNN models | Python, scikit-learn |
+| `Dynamic Team Intro/` | A fill-in-the-blanks game that introduces a team | Python |
+| `Facebook Unsupervised ML/` | Groups Facebook Live posts with PCA and k-means clustering | Python, scikit-learn |
+| `Feature Engineering/` | Feature engineering to predict house prices on the Ames Housing dataset | Python, scikit-learn |
+| `Kolobok Fairytale/` | A text adventure game based on the Russian fairytale Kolobok | Python |
+| `Low Birthweight Prediction Algorithms/` | Classification models that predict low birthweight | Python, scikit-learn |
+| `MoneyBall Substitutes/` | Finds affordable replacement players, Moneyball style | R |
+| `Wedding Database Analysis/` | Tests whether sustainable wedding vendors are more cost-effective | SQL, Python |
+| `Wedding Database Business Challenge I/` | Builds wedding budget options from the vendor database | SQL, Python |
 
-Developed and optimized trading algorithms, leveraging Python and AWS to enhance strategy performance for clients.
-- Identified high-performance parameters for algorithmic trading strategies, reaching over 107% ROI over 24 months.
-- Built, deployed, and automated 10+ algorithms using Python, SQL, MQL5, and AWS tailored to specific market conditions.
-- Implemented mathematical models to identify market trends with 87% accuracy, which improved RRR to nearly 1:3.
-  
+## Getting started
 
-### Data Analyst & AI Initiatives Lead
-**3 Amigos** · Full-time · 
-Jan 2022 - Aug 2023 · 
-Boston, Massachusetts, United States
+**Python notebooks:** install Python 3.10 or newer, then:
 
-Led integration of AI tools, leveraging Data Analytics and implementing Machine Learning algorithms, using Python and R, to analyze EdTech startups, identify underlying trends and develop marketing strategies.
-- Conducted trend analysis across geographical regions using R, providing insights that helped to create disruptive business
-models and driving innovation in the EdTech sector.
-- Optimized engagement by 366% within 3 months through merging Google Analytics insights with marketing strategy.
-- Implemented AI content solutions such as Midjourney and SynthesiaAI which tripled (3x) sales in 2 months.
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
 
+Open a notebook from inside its folder, since each one reads its data with a relative path.
 
-### Market Analyst & Marketing Strategist
-**Da-Vinci Group** · Full-time ·
-May 2021 - Jan 2022 · 
-Vladivostok, Primorye, Russia
+**R scripts:** open the script in RStudio, set the working directory to the script's folder, and
+install the packages it loads with `install.packages()`. The Airbnb script needs a MongoDB Atlas
+cluster with the sample data loaded; put its connection URL in a `MONGO_URL` environment variable.
 
-Delivered a data-driven market strategy focusing on low-medium class apartment markets, using SQL and Python for market analysis.
-- Delivered competitor analysis to provide a unique value proposition, successfully attraction 2 new investors to the brand.
-- Reduced marketing costs by 17% by identifying inefficiencies and reallocating resources.
-- Increased online presence by 40% through clients’ engagement, using Google Analytics insights and SEO optimization.
+**SQL:** the wedding scripts are written for MySQL. Run `FY_Wedding_DB_Code.sql` first to create
+the database.
 
+## Data and license
 
-## **Education**
-
-### Master of Science in Finance
-- Hult International Business School · Boston, Massachusetts
-
-### Master of Science in Business Analytics
-- Hult International Business School · San Francisco, California
-- Clubs: AI Society / EdTech Club
-
-### Bachelor of Business Administration
-- Hult International Business School · Boston, Massachusetts
-- Major in Entrepreneurship/ Minor in Marketing
+The code is licensed under the [Apache License 2.0](LICENSE). The datasets belong to their original
+sources and keep their own terms. For example, the baseball data is from the Lahman Baseball
+Database (CC BY-SA 3.0, see `MoneyBall Substitutes/readme2013.txt`).
