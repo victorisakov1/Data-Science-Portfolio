@@ -6,7 +6,6 @@ library(ggplot2)
 
 batting <- read.csv("Batting.csv")
 salaries <- read.csv("Salaries.csv")
-text <- read.table("readme2013.txt", header = TRUE, sep = "\t" )
 
 head(batting)
 str(batting)
@@ -207,7 +206,7 @@ p <-ggplot(data=closer_comp, aes(x=salary,y=Composite_Score,
                                  colour=playerID))+ 
   xlab("Salary") +
   ylab("Composite Score") +
-  ggtitle("OBP Comparison by Player (Closer)")
+  ggtitle("Composite Score by Player (Closer)")
 p + geom_point(size=6)
 
 

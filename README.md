@@ -58,6 +58,12 @@ cluster with the sample data loaded; put its connection URL in a `MONGO_URL` env
 **SQL:** the wedding scripts are written for MySQL. Run `FY_Wedding_DB_Code.sql` first to create
 the database.
 
+## Known issues
+
+A line-by-line review found bugs and weak spots that would change the reported results. They are
+left as submitted and listed in [KNOWN_ISSUES.md](KNOWN_ISSUES.md). Smaller problems that don't
+change any results (a crashing game scene, a missing import, wrong comments) have been fixed.
+
 ## Data and license
 
 The code is licensed under the [Apache License 2.0](LICENSE). The datasets belong to their original

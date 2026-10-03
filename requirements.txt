@@ -1,6 +1,6 @@
 # Python packages for the Jupyter notebooks
 jupyter
-pandas
+pandas<3  # older notebooks use pandas features removed in 3.0
 numpy
 openpyxl
 matplotlib
