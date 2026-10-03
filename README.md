@@ -1,4 +1,4 @@
-# Data Science Portfolio
+# University Data Science Projects
 
 > **University coursework.** Every project here was built as coursework during my studies at Hult
 > International Business School (mostly the Master of Science in Business Analytics). They show
