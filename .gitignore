@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Secrets
+.env
+.Renviron
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

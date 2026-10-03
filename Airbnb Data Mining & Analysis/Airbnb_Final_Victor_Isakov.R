@@ -19,9 +19,9 @@ library(tidyr)
 
 
 # This is the connection_string. You can get the exact url from your MongoDB cluster screen
-#replace the <<user>> with your Mongo user name and <<password>> with the mongo password
-#lastly, replace the <<server_name>> with your MongoDB server name
-connection_string <- 'mongodb+srv://visakov:visakov@cluster0.0jjp71b.mongodb.net/'
+# Set MONGO_URL in your environment (or in ~/.Renviron) to your own cluster's URL, for example:
+# mongodb+srv://<user>:<password>@<server_name>/
+connection_string <- Sys.getenv("MONGO_URL")
 airbnb_collection <- mongo(collection="listingsAndReviews", db="sample_airbnb", url=connection_string)
 
 #Here's how you can download all the Airbnb data from Mongo

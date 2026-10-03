@@ -1,4 +1,4 @@
-setwd("C:/Users/Mi/Desktop/My Files/1-MBAN/Semester II/Visualizing & Analyzing Data with R/Team_Final")
+# Run this script from its own folder so the CSV files below are found.
 getwd()
 
 library(dplyr)

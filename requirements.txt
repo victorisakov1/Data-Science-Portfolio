@@ -1,0 +1,11 @@
+# Python packages for the Jupyter notebooks
+jupyter
+pandas
+numpy
+openpyxl
+matplotlib
+seaborn
+scipy
+statsmodels
+scikit-learn
+phik
